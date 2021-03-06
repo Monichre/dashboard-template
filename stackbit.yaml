@@ -22,8 +22,8 @@ pagesDir: content
 excludePages:
   - README.md
 # list of field that are used in logical expressions
-logicFields:
-  - post.category
+# logicFields:
+#   - post.category
 # the schema of project's content
 models:
   job:
