@@ -19,6 +19,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/content`,
+        name: "content",
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: "data",
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/images`,
         name: "images",
       },
@@ -53,12 +68,10 @@ module.exports = {
           {
             src: "icons/icon_512x512.png",
             sizes: "512x512",
-
           },
           {
             src: "icons/icon_192x192.png",
             sizes: "192x192",
-
           },
         ],
       },

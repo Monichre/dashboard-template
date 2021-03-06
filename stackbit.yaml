@@ -11,13 +11,13 @@ assets:
   # the folder with static asset files
   staticDir: static
   # the folder within the staticDir where the uploaded files will be stored
-  uploadDir: images
+  uploadDir: src/images
   # the URL path from which the static assets will be server
   publicPath: /
 # the folder containing project's data files (yaml, json, toml)
-dataDir: data
+dataDir: src/data
 # the folder containing project's markdown page files (.md, .mdx, .markdown)
-pagesDir: content
+pagesDir: src/content
 # list of globs matching the files that should be excluded from the pagesDir
 excludePages:
   - README.md
@@ -31,8 +31,8 @@ metadata:
   author: Liam Ellis
   authorURL: "https://github.com/Monichre"
   images:
-    small: images/me.jpeg
-    large: images/me.jpeg
+    small: src/images/me.jpeg
+    large: src/images/me.jpeg
 
 models:
   job:
