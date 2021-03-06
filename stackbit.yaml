@@ -25,6 +25,15 @@ excludePages:
 # logicFields:
 #   - post.category
 # the schema of project's content
+metadata:
+  title: Liam Ellis
+  description: This is my personal developer site
+  author: Liam Ellis
+  authorURL: "https://github.com/Monichre"
+  images:
+    small: images/me.jpeg
+    large: images/me.jpeg
+
 models:
   job:
     type: page
